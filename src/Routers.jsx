@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import HomeOne from './pages/homePages/HomeOne';
+// import HomeOne from './pages/homePages/HomeOne';
 import HomeTwo from './pages/homePages/HomeTwo';
 import HomeThree from './pages/homePages/HomeThree';
 import HomeFour from './pages/homePages/HomeFour';
@@ -57,7 +57,7 @@ const Routers = () => {
     return (
         <>
             <Routes>
-                <Route path='/' element={<HomeOne />}></Route>
+                <Route path='/' element={<HomeThree />}></Route>
                 <Route path='/home-2' element={<HomeTwo />}></Route>
                 <Route path='/home-3' element={<HomeThree />}></Route>
                 <Route path='/home-4' element={<HomeFour />}></Route>
